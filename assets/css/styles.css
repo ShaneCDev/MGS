@@ -1,12 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@700&display=swap');
+
 * {
+    margin: 0;
+    padding: 0;
+    border: none;
     box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto Condensed, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* headings + logo */
+h1, h2 {
+    font-family: Cabin, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
+/* navbar */
+.rtl {
+    text-align: right;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    list-style-type: none;
+    margin-right: 30px;
+    display: inline;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.navactive {
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* slideshow container */
 .slideshow-container {
-    max-width: 1000px;
+    width: 100%;
     position: relative;
     margin: auto;
+
+    /* need to resize the img and sort it out as it is bigger than this container when I fiddle with the height property */
 }
 
 /* hide images by default */
