@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <title>MGS</title>
 </head>
+
 <body>
     <header>
         <a href="index.html">
@@ -30,5 +34,69 @@
             </nav>
         </div>
     </header>
+
+    <div class="slideshow-container">
+        
+        <div class="mySlides fade">
+            <div class="numtext">1 / 3</div>
+            <img src="/assets/img/cinema.jpg" alt="Time-lapse Photography of Car Lights in Front of Cinema" style="width: 100%;">
+            <div class="text">Placeholder</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numtext">2 / 3</div>
+            <img src="/assets/img/pcgames.jpg" alt="Photo of Person Typing on Computer Keyboard" style="width: 100%;">
+            <div class="text">Placeholder 2</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numtext">3 / 3</div>
+            <img src="/assets/img/tv.jpg" alt="Man holding remote" style="width: 100%;">
+            <div class="text">Placeholder 3</div>
+        </div>
+        
+        <!-- next and prev buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- dots/circles -->
+    <div style="text-align:center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+        }
+    </script>
+
 </body>
+
 </html>
