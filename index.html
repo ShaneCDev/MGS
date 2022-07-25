@@ -6,11 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <title>MGS</title>
 </head>
 
-<body>
+<body class="holy grail">
     <header>
         <a href="index.html">
             <h1 id="logo">MGS</h1>
@@ -35,67 +34,30 @@
         </div>
     </header>
 
-    <div class="slideshow-container">
-        
-        <div class="mySlides fade">
-            <div class="numtext">1 / 3</div>
-            <img src="/assets/img/cinema.jpg" alt="Time-lapse Photography of Car Lights in Front of Cinema" style="width: 100%;">
-            <div class="text">Placeholder</div>
+    <div class="holy-grail-body">
+        <section class="holy-grail-content">
+            <h2>Welcome to my blog!</h2>
+            <hr>
+            <p>My name is Shane Conway, I am an aspiring software developer and I just made this blog as a place where I can discuss things that I am passionate about. Discuss may be the wrong term, on this page what you will mainly find is 
+                movies, games, and tv shows that I would highly recommend to people and just a little bit about them also. I you might also find some links to articles or things that I just find interesting in general in the sidebars so feel
+                free to click around.
+            </p>
+        </section>
+
+        <div class="holy-grail-sidebar-1 hg-sidebar">
+            <h2>testing testing</h2>
+            <p>test test test test test test test test</p>
         </div>
 
-        <div class="mySlides fade">
-            <div class="numtext">2 / 3</div>
-            <img src="/assets/img/pcgames.jpg" alt="Photo of Person Typing on Computer Keyboard" style="width: 100%;">
-            <div class="text">Placeholder 2</div>
+        <div class="holy-grail-sidebar-2 hg-sidebar">
+            <h2>testing testing</h2>
+            <p>test test test test test test</p>
         </div>
-
-        <div class="mySlides fade">
-            <div class="numtext">3 / 3</div>
-            <img src="/assets/img/tv.jpg" alt="Man holding remote" style="width: 100%;">
-            <div class="text">Placeholder 3</div>
-        </div>
-        
-        <!-- next and prev buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    <br>
-
-    <!-- dots/circles -->
-    <div style="text-align:center;">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
     </div>
 
-    <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
-
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
-
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            let dots = document.getElementsByClassName("dot");
-            if (n > slides.length) {slideIndex = 1}
-            if (n < 1) {slideIndex = slides.length}
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex-1].style.display = "block";
-            dots[slideIndex-1].className += " active";
-        }
-    </script>
+    <footer>
+        <!--social links go here-->
+    </footer>
 
 </body>
 

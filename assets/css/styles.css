@@ -7,10 +7,35 @@
     box-sizing: border-box;
 }
 
-body {
+.holy-grail {
     font-family: Roboto Condensed, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+    min-height: 100vh;
+}
+
+.holy-grail, .holy-grail-body {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+
+.holy-grail-content {
+    flex: 1 1 auto;
+}
+
+.holy-grail-sidebar-1 {
+    order: -1;
+}
+
+@media (min-width: 768px) {
+    .holy-grail-body {
+        flex-direction: row;
+    }
+
+    .hg-sidebar {
+        flex: 0 0 260px;
+    }
 }
 
 /* headings + logo */
@@ -58,92 +83,4 @@ h1, h2 {
 
 .navactive {
     border-bottom: 1px solid #3a3a3a;
-}
-
-/* slideshow container */
-.slideshow-container {
-    width: 100%;
-    position: relative;
-    margin: auto;
-
-    /* need to resize the img and sort it out as it is bigger than this container when I fiddle with the height property */
-}
-
-/* hide images by default */
-.mySlides {
-    display: none;
-}
-
-/* next and prev buttons */
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: #fff;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-
-/* position the "next button" to the right */
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-/* add black background on hover slightly see-through */
-.prev:hover, .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* caption text */
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-
-/* number text */
-.numtext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-
-/* dots/indicators */
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-    background-color: #717171;
-}
-
-/* fade animation */
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from {opacity: .4;}
-    to {opacity: 1;}
 }
