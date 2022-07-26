@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@700&display=swap');
 
+/* colour palette */
+:root {
+    --main-colour: #222831;
+    --sec-colour: #393E46;
+    --text-colour: #00ADB5;
+    --secondtxt-colour: #EEEEEE;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -18,6 +27,7 @@
     display: flex;
     flex: 1 1 auto;
     flex-direction: column;
+    background-color: var(--sec-colour);
 }
 
 .holy-grail-content {
@@ -38,12 +48,26 @@
     }
 }
 
+footer {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+} 
+
+.social-networks i {
+    font-size: 150%;
+    margin: 1%;
+    color: var(--secondtxt-colour);
+}
+
 /* headings + logo */
 h1, h2 {
     font-family: Roboto Condensed, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
+    color: var(--secondtxt-colour);
 }
 
 #logo {
@@ -58,6 +82,7 @@ h1, h2 {
 }
 
 #menu {
+    background: var(--main-colour);
     font-size: 110%;
     letter-spacing: 4px;
 }
@@ -66,7 +91,12 @@ h1, h2 {
     line-height: 75px;
 }
 
+#logo {
+    color: var(--text-colour);
+}
+
 #menu li {
+    color: var(--text-colour);
     list-style-type: none;
     margin-right: 30px;
     display: inline;
@@ -78,14 +108,17 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid var(--secondtxt-colour);
 }
 
 .navactive {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid var(--secondtxt-colour);
 }
 
 p {
+    line-height: 32px;
+    margin-bottom: 50px;
     font-family: Cabin, sans-serif;
     letter-spacing: 2px;
+    color: var(--secondtxt-colour);
 }
