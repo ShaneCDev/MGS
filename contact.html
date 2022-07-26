@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +7,6 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
     <title>MGS</title>
 </head>
-
 <body class="holy-grail">
     <header>
         <a href="index.html">
@@ -18,7 +16,7 @@
             <nav id="menu">
                 <ul>
                     <li>
-                        <a href="index.html" class="navactive">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
                         <a href="movies.html">Movies</a>
@@ -30,7 +28,7 @@
                         <a href="shows.html">Shows</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact Me</a>
+                        <a href="contact.html" class="navactive">Contact Me</a>
                     </li>
                 </ul>
             </nav>
@@ -39,24 +37,20 @@
 
     <div class="holy-grail-body">
         <section class="holy-grail-content">
-            <h2>Welcome to my blog!</h2>
-            <hr>
-            <p>My name is Shane Conway, I am an aspiring software developer and I just made this blog as a place where I can discuss things that I am passionate about. Discuss may be the wrong term, on this page what you will mainly find is 
-                movies, games, and tv shows that I would highly recommend to people and just a little bit about them also. I you might also find some links to articles or things that I just find interesting in general in the sidebars so feel
-                free to click around.
-            </p>
-
-
-            <p>And if you like what you see or just want to get in contact me regarding anything at all feel free to fill out the form below!</p>
+            <form action="confirmation.html">
+                <label for="fname">First Name:</label><br>
+                <input class="text-input" type="text" id="fname" name="fname"><br>
+                <label for="lname">Last Name:</label><br>
+                <input class="text-input" type="text" id="lname" name="lname"><br>
+                <label for="email" id="email" name="email">Email Address:</label><br>
+                <input class="text-input" type="email" id="email" name="email"><br>
+                <input class="input-button" type="submit" id="submit-button" value="Submit!">
+            </form>
         </section>
 
-        <div class="holy-grail-sidebar-1 hg-sidebar">
-            
-        </div>
+        <div class="holy-grail-sidebar-1 hg-sidebar"></div>
 
-        <div class="holy-grail-sidebar-2 hg-sidebar">
-            
-        </div>
+        <div class="holy-grail-sidebar-2 hg-sidebar"></div>
     </div>
 
     <footer>
@@ -78,5 +72,4 @@
 
     <script src="https://kit.fontawesome.com/faff5a5907.js" crossorigin="anonymous"></script>
 </body>
-
 </html>
