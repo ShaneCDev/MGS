@@ -123,6 +123,26 @@ p {
     color: var(--secondtxt-colour);
 }
 
+/* style the movie page */
+.moviecontainer {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: 50%;
+}
+
+.image {
+    flex-basis: 20%;
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
 /* Style form elements */
 
 form {
