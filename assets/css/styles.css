@@ -143,6 +143,19 @@ img {
     padding-left: 20px;
 }
 
+/* games page */
+.gamescontainer {
+    display: flex;
+    align-items: center;
+}
+
+/* shows page */
+.showscontainer {
+    display: flex;
+    align-items: center;
+}
+
+
 /* Style form elements */
 
 form {
