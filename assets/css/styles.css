@@ -155,6 +155,11 @@ img {
     align-items: center;
 }
 
+.thankyoucontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* Style form elements */
 
@@ -189,3 +194,8 @@ label {
     color: var(--secondtxt-colour);
     font-size: larger;
 }
+
+/*.confirmhead {
+    align-content: center;
+    justify-content: center;
+}*/
