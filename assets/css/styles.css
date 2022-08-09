@@ -270,11 +270,11 @@ button:focus {
 }
 
 .mgs-card[data-movie="Reservoir Dogs"] {
-    background-image: url("../../movies/resdogslandscape.jpg");
+    background-image: url("../img/movies/resdogslandscape.jpg");
 }
 
 .mgs-card[data-movie="Drive"] {
-    background-image: url("../../movies/drivelandscape.jpg");
+    background-image: url("../img/movies/drivelandscape.jpg");
 }
 
 .mgs-card[data-movie="Se7en"] {
