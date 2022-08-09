@@ -270,43 +270,43 @@ button:focus {
 }
 
 .mgs-card[data-movie="Reservoir Dogs"] {
-    background-image: url("/assets/img/movies/resdogslandscape.jpg");
+    background-image: url("../../movies/resdogslandscape.jpg");
 }
 
 .mgs-card[data-movie="Drive"] {
-    background-image: url("/assets/img/movies/drivelandscape.jpg");
+    background-image: url("../../movies/drivelandscape.jpg");
 }
 
 .mgs-card[data-movie="Se7en"] {
-    background-image: url("/assets/img/movies/seven.jpg");
+    background-image: url("../../movies/seven.jpg");
 }
 
 .mgs-card[data-movie="The Batman"] {
-    background-image: url("/assets/img/movies/the-batman-movie-poster.jpg");
+    background-image: url("../../movies/the-batman-movie-poster.jpg");
 }
 
 .mgs-card[data-movie="The Raid"] {
-    background-image: url("/assets/img/movies/movie-the-raid-redemption-wallpaper.jpg");
+    background-image: url("../../movies/movie-the-raid-redemption-wallpaper.jpg");
 }
 
 .mgs-card[data-movie="The Matrix"] {
-    background-image: url("/assets/img/movies/matrix.jpg");
+    background-image: url("../../movies/matrix.jpg");
 }
 
 .mgs-card[data-movie="Fight Club"] {
-    background-image: url("/assets/img/movies/fightclub.jpg");
+    background-image: url("../../movies/fightclub.jpg");
 }
 
 .mgs-card[data-movie="Inception"] {
-    background-image: url("/assets/img/movies/Inception-2010.jpg");
+    background-image: url("../../movies/Inception-2010.jpg");
 }
 
 .mgs-card[data-movie="LOTR"] {
-    background-image: url("/assets/img/movies/lotr.jpg");
+    background-image: url("../img/movies/lotr.jpg");
 }
 
 .mgs-card[data-movie="Dark Knight"] {
-    background-image: url("/assets/img/movies/darkknight.jpg");
+    background-image: url("../../movies/darkknight.jpg");
 }
 
 .mgs-card-overlay {
