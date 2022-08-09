@@ -269,10 +269,6 @@ button:focus {
     }
 }
 
-.mgs-card[data-movie="Blade Runner"] {
-    background-image: url("http://digitalspyuk.cdnds.net/15/47/1600x800/landscape-1447754794-harrison-ford-blade-runner.jpg");
-}
-
 .mgs-card[data-movie="Reservoir Dogs"] {
     background-image: url("/assets/img/movies/resdogslandscape.jpg");
 }
@@ -295,6 +291,22 @@ button:focus {
 
 .mgs-card[data-movie="The Matrix"] {
     background-image: url("/assets/img/movies/matrix.jpg");
+}
+
+.mgs-card[data-movie="Fight Club"] {
+    background-image: url("/assets/img/movies/fightclub.jpg");
+}
+
+.mgs-card[data-movie="Inception"] {
+    background-image: url("/assets/img/movies/Inception-2010.jpg");
+}
+
+.mgs-card[data-movie="LOTR"] {
+    background-image: url("/assets/img/movies/lotr.jpg");
+}
+
+.mgs-card[data-movie="Dark Knight"] {
+    background-image: url("/assets/img/movies/darkknight.jpg");
 }
 
 .mgs-card-overlay {
