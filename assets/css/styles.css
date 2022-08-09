@@ -240,7 +240,7 @@ button:focus {
     outline: 0;
 }
 
-.movie-card {
+.mgs-card {
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
@@ -255,25 +255,49 @@ button:focus {
 }
 
 @media screen and (max-width: 800px) {
-    .movie-card {
+    .mgs-card {
         width: 95%;
         max-width: 95%;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .movie-card {
+    .mgs-card {
         background-position: 50% 0%;
         background-size: cover;
         height: 400px;
     }
 }
 
-.movie-card[data-movie="Blade Runner"] {
+.mgs-card[data-movie="Blade Runner"] {
     background-image: url("http://digitalspyuk.cdnds.net/15/47/1600x800/landscape-1447754794-harrison-ford-blade-runner.jpg");
 }
 
-.movie-card-overlay {
+.mgs-card[data-movie="Reservoir Dogs"] {
+    background-image: url("/assets/img/movies/resdogslandscape.jpg");
+}
+
+.mgs-card[data-movie="Drive"] {
+    background-image: url("/assets/img/movies/drivelandscape.jpg");
+}
+
+.mgs-card[data-movie="Se7en"] {
+    background-image: url("/assets/img/movies/seven.jpg");
+}
+
+.mgs-card[data-movie="The Batman"] {
+    background-image: url("/assets/img/movies/the-batman-movie-poster.jpg");
+}
+
+.mgs-card[data-movie="The Raid"] {
+    background-image: url("/assets/img/movies/movie-the-raid-redemption-wallpaper.jpg");
+}
+
+.mgs-card[data-movie="The Matrix"] {
+    background-image: url("/assets/img/movies/matrix.jpg");
+}
+
+.mgs-card-overlay {
     width: 100%;
     height: 100%;
     border-radius: 8px;
@@ -287,12 +311,12 @@ button:focus {
 }
 
 @media screen and (max-width: 600px) {
-    .movie-card-overlay {
+    .mgs-card-overlay {
         background: linear-gradient(to bottom, rgba(42, 159, 255, 0.2) 0%, #212120 60%, #212120 100%);
     }    
 }
 
-.movie-card-share {
+.mgs-card-share {
     padding: 1em;
     display: inline-block;
     width: 100%;
@@ -300,13 +324,13 @@ button:focus {
 }
 
 @media screen and (max-width: 600px) {
-    .movie-card-share {
+    .mgs-card-share {
         display: block;
         width: 100%;
     }
 }
 
-.movie-card-icon {
+.mgs-card-icon {
     color: #fff;
     mix-blend-mode: lighten;
     opacity: 0.4;
@@ -314,20 +338,20 @@ button:focus {
     padding: 0;
 }
 
-.movie-card-icon:hover {
+.mgs-card-icon:hover {
     opacity: 1;
     mix-blend-mode: lighten;
 }
 
-.movie-card-icon:not(:first-of-type) {
+.mgs-card-icon:not(:first-of-type) {
     margin-left: 5px;
 }
 
-.movie-card-icon i {
+.mgs-card-icon i {
     font-size: 1.2em;
 }
 
-.movie-card-content {
+.mgs-card-content {
     width: 100%;
     max-width: 370px;
     display: flex;
@@ -340,13 +364,13 @@ button:focus {
 }
 
 @media screen and (max-width: 1000px) {
-    .movie-card-content {
+    .mgs-card-content {
         width: 50%;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .movie-card-content {
+    .mgs-card-content {
         margin-top: 4.2em;
         width: 100%;
         float: inherit;
@@ -355,17 +379,17 @@ button:focus {
     }
 }
 
-.movie-card-header {
+.mgs-card-header {
     margin-bottom: 2em;
 }
 
-.movie-card-title {
+.mgs-card-title {
     color: #fff;
     margin-bottom: 0.25em;
     opacity: 0.75;
 }
 
-.movie-card-info {
+.mgs-card-info {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 0.8em;
@@ -376,7 +400,7 @@ button:focus {
     opacity: 0.5;
 }
 
-.movie-card-desc {
+.mgs-card-desc {
     font-weight: 300;
     opacity: 0.84;
     margin-bottom: 2em;
@@ -395,7 +419,6 @@ button:focus {
 
 .btn::before {
     font-family: "Material Icons";
-    content: "";
     vertical-align: middle;
     font-size: 1.5em;
     padding-right: 0.5em;
