@@ -278,27 +278,27 @@ button:focus {
 }
 
 .mgs-card[data-movie="Se7en"] {
-    background-image: url("../../movies/seven.jpg");
+    background-image: url("../img/movies/seven.jpg");
 }
 
 .mgs-card[data-movie="The Batman"] {
-    background-image: url("../../movies/the-batman-movie-poster.jpg");
+    background-image: url("../img/movies/the-batman-movie-poster.jpg");
 }
 
 .mgs-card[data-movie="The Raid"] {
-    background-image: url("../../movies/movie-the-raid-redemption-wallpaper.jpg");
+    background-image: url("../img/movies/movie-the-raid-redemption-wallpaper.jpg");
 }
 
 .mgs-card[data-movie="The Matrix"] {
-    background-image: url("../../movies/matrix.jpg");
+    background-image: url("../img/movies/matrix.jpg");
 }
 
 .mgs-card[data-movie="Fight Club"] {
-    background-image: url("../../movies/fightclub.jpg");
+    background-image: url("../img/movies/fightclub.jpg");
 }
 
 .mgs-card[data-movie="Inception"] {
-    background-image: url("../../movies/Inception-2010.jpg");
+    background-image: url("../img/movies/Inception-2010.jpg");
 }
 
 .mgs-card[data-movie="LOTR"] {
@@ -306,7 +306,7 @@ button:focus {
 }
 
 .mgs-card[data-movie="Dark Knight"] {
-    background-image: url("../../movies/darkknight.jpg");
+    background-image: url("../img/movies/darkknight.jpg");
 }
 
 .mgs-card-overlay {
