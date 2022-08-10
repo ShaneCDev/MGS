@@ -269,6 +269,7 @@ button:focus {
     }
 }
 
+/* movies */
 .mgs-card[data-movie="Reservoir Dogs"] {
     background-image: url("../img/movies/resdogslandscape.jpg");
 }
@@ -308,6 +309,49 @@ button:focus {
 .mgs-card[data-movie="Dark Knight"] {
     background-image: url("../img/movies/darkknight.jpg");
 }
+/* movies end */
+
+/* shows */
+.mgs-card[data-show="Prison Break"] {
+    background-image: url("../img/shows/prison-break-landscape.jpg");
+}
+
+.mgs-card[data-show="Community"] {
+    background-image: url("../img/shows/community-landscape.jpg");
+}
+
+.mgs-card[data-show="Lost"] {
+    background-image: url("../img/shows/lost-landscape.jpg");
+}
+
+.mgs-card[data-show="One Punch Man"] {
+    background-image: url("../img/shows/onepunch-landscape.jpg");
+}
+
+.mgs-card[data-show="Breaking Bad"] {
+    background-image: url("../img/shows/breakingbad-landscape.jpg");
+}
+
+.mgs-card[data-show="Better Call Saul"] {
+    background-image: url("../img/shows/bettercallsaul-landscape.jpg");
+}
+
+.mgs-card[data-show="Invincible"] {
+    background-image: url("../img/shows/Invincible-landscape.jpg");
+}
+
+.mgs-card[data-show="The Boys"] {
+    background-image: url("../img/shows/theboys-landscape.jpg");
+}
+
+.mgs-card[data-show="Attack on Titan"] {
+    background-image: url("../img/shows/attackontitan-landscape.jpg");
+}
+
+.mgs-card[data-show="Mr Robot"] {
+    background-image: url("../img/shows/mr-robot-landscape.jpg");
+}
+/* shows end */
 
 .mgs-card-overlay {
     width: 100%;
