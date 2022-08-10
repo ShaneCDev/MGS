@@ -353,6 +353,39 @@ button:focus {
 }
 /* shows end */
 
+/* games */
+.mgs-card[data-game="Bloodborne"] {
+    background-image: url("../img/games/bloodborne-landscape.jpg");
+}
+.mgs-card[data-game="Control"] {
+    background-image: url("../img/games/control-landscape.jpg");
+}
+.mgs-card[data-game="KOTOR"] {
+    background-image: url("../img/games/kotor-landscape.jpg");
+}
+.mgs-card[data-game="Mad Max"] {
+    background-image: url("../img/games/madmax-landscape.jpg");
+}
+.mgs-card[data-game="Sekiro"] {
+    background-image: url("../img/games/sekiro-landscape.jpg");
+}
+.mgs-card[data-game="Uncharted2"] {
+    background-image: url("../img/games/uncharted2-landscape.jpg");
+}
+.mgs-card[data-game="Dark Souls"] {
+    background-image: url("../img/games/dsr-landscape.jpg");
+}
+.mgs-card[data-game="God of War"] {
+    background-image: url("../img/games/God-Of-War-landscape.jpg");
+}
+.mgs-card[data-game="Batman"] {
+    background-image: url("../img/games/batmanarkham-landscape.jpg");
+}
+.mgs-card[data-game="Half-Life"] {
+    background-image: url("../img/games/halflife-landscape.jpg");
+}
+/* games end */
+
 .mgs-card-overlay {
     width: 100%;
     height: 100%;
