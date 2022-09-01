@@ -518,3 +518,15 @@ button:focus {
     color: #2a9fff;
     box-shadow: 0px 1px 8px 0px rgba(245, 199, 0, 0.2);
 }
+
+/* grid layout */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cell {
+    flex: 0 0 32%;
+    margin-bottom: 5px;
+}
