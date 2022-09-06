@@ -217,7 +217,8 @@ button:focus {
     height: 100%;
     min-height: 300px;
     display: block;
-    margin: 8vh auto;
+    margin-top: 8vh;
+    margin-bottom: 0;
     border-radius: 8px;
     box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.25);
     position: relative;
@@ -225,107 +226,106 @@ button:focus {
 
 /* movies */
 .mgs-card[data-movie="Drive"] {
-    background-image: url("../img/movies/drivelandscape.jpg");
+    background-image: url("../img/movies/drivelandscape.avif");
 }
 
 .mgs-card[data-movie="Se7en"] {
-    background-image: url("../img/movies/seven.jpg");
+    background-image: url("../img/movies/seven.avif");
 }
 
 .mgs-card[data-movie="The Batman"] {
-    background-image: url("../img/movies/the-batman-movie-poster.jpg");
+    background-image: url("../img/movies/thebatman.avif");
 }
 
 .mgs-card[data-movie="The Raid"] {
-    background-image: url("../img/movies/movie-the-raid-redemption-wallpaper.jpg");
+    background-image: url("../img/movies/theraid.avif");
 }
 
 .mgs-card[data-movie="The Matrix"] {
-    background-image: url("../img/movies/matrix.jpg");
+    background-image: url("../img/movies/matrix.avif");
 }
 
 .mgs-card[data-movie="Fight Club"] {
-    background-image: url("../img/movies/fightclub.jpg");
+    background-image: url("../img/movies/fightclub.avif");
 }
 
 .mgs-card[data-movie="Inception"] {
-    background-image: url("../img/movies/Inception-2010.jpg");
+    background-image: url("../img/movies/inception.avif");
 }
 
 .mgs-card[data-movie="LOTR"] {
-    background-image: url("../img/movies/lotr.jpg");
+    background-image: url("../img/movies/lotr.avif");
 }
 
 .mgs-card[data-movie="Dark Knight"] {
-    background-image: url("../img/movies/darkknight.jpg");
+    background-image: url("../img/movies/darkknight.avif");
 }
 /* movies end */
 
 /* shows */
 .mgs-card[data-show="Community"] {
-    background-image: url("../img/shows/community-landscape.jpg");
+    background-image: url("../img/shows/community.avif");
 }
 
 .mgs-card[data-show="Lost"] {
-    background-image: url("../img/shows/lost-landscape.jpg");
+    background-image: url("../img/shows/lost.avif");
 }
 
 .mgs-card[data-show="One Punch Man"] {
-    background-image: url("../img/shows/onepunch-landscape.jpg");
+    background-image: url("../img/shows/onepunch.avif");
 }
 
 .mgs-card[data-show="Breaking Bad"] {
-    background-image: url("../img/shows/breakingbad-landscape.jpg");
+    background-image: url("../img/shows/breakingbad.avif");
 }
-
 .mgs-card[data-show="Better Call Saul"] {
-    background-image: url("../img/shows/bettercallsaul-landscape.jpg");
+    background-image: url("../img/shows/bettercallsaul.avif");
 }
 
 .mgs-card[data-show="Invincible"] {
-    background-image: url("../img/shows/Invincible-landscape.jpg");
+    background-image: url("../img/shows/invincible.avif");
 }
 
 .mgs-card[data-show="The Boys"] {
-    background-image: url("../img/shows/theboys-landscape.jpg");
+    background-image: url("../img/shows/theboys.avif");
 }
 
 .mgs-card[data-show="Attack on Titan"] {
-    background-image: url("../img/shows/attackontitan-landscape.jpg");
+    background-image: url("../img/shows/attackontitan.avif");
 }
 
 .mgs-card[data-show="Mr Robot"] {
-    background-image: url("../img/shows/mr-robot-landscape.jpg");
+    background-image: url("../img/shows/mrrobot.avif");
 }
 /* shows end */
 
 /* games */
 .mgs-card[data-game="Bloodborne"] {
-    background-image: url("../img/games/bloodborne-landscape.jpg");
+    background-image: url("../img/games/bloodborne.avif");
 }
 .mgs-card[data-game="Control"] {
-    background-image: url("../img/games/control-landscape.jpg");
+    background-image: url("../img/games/control.avif");
 }
 .mgs-card[data-game="Mad Max"] {
-    background-image: url("../img/games/madmax-landscape.jpg");
+    background-image: url("../img/games/madmax.avif");
 }
 .mgs-card[data-game="Sekiro"] {
-    background-image: url("../img/games/sekiro-landscape.jpg");
+    background-image: url("../img/games/sekiro.avif");
 }
 .mgs-card[data-game="Uncharted2"] {
-    background-image: url("../img/games/uncharted2-landscape.jpg");
+    background-image: url("../img/games/uncharted2.avif");
 }
 .mgs-card[data-game="Dark Souls"] {
-    background-image: url("../img/games/dsr-landscape.jpg");
+    background-image: url("../img/games/darksouls.avif");
 }
 .mgs-card[data-game="God of War"] {
-    background-image: url("../img/games/God-Of-War-landscape.jpg");
+    background-image: url("../img/games/godofwar.avif");
 }
 .mgs-card[data-game="Batman"] {
-    background-image: url("../img/games/batmanarkham-landscape.jpg");
+    background-image: url("../img/games/batmanarkhamcity.avif");
 }
 .mgs-card[data-game="Half-Life"] {
-    background-image: url("../img/games/halflife-landscape.jpg");
+    background-image: url("../img/games/halflife.avif");
 }
 /* games end */
 
@@ -445,67 +445,15 @@ button:focus {
     margin-bottom: 5px;
 }
 
-@media screen and (max-width: 800px) {
-    .cell {
-        flex: 1 0 50%;
-        min-height: 25vh;
+@media screen and (max-width: 1680px) {
+    .grid {
+        flex-direction: column;
     }
 
-    .cell:last-child {
-        display: none;
-    }
-
-    p {
-        line-height: 20px;
-        letter-spacing: normal;
-    }
-
-    .mgs-card-header {
-        margin-bottom: 0.2em;
-    } 
-
-}
-
-@media screen and (max-width: 1000px) {
-    .mgs-card-content {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .mgs-card-content {
-        margin-top: 4.2em;
-        width: 100%;
-        float: inherit;
-        max-width: 100%;
-        padding: 0 1em 1em;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .mgs-card-share {
-        display: block;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .mgs-card-overlay {
-        background: linear-gradient(to bottom, rgba(42, 159, 255, 0.2) 0%, #212120 60%, #212120 100%);
-    }    
-}
-
-@media screen and (max-width: 800px) {
     .mgs-card {
-        width: 95%;
-        max-width: 95%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .mgs-card {
-        background-position: 50% 0%;
-        background-size: cover;
-        height: 400px;
+        margin-top: 4vh;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
