@@ -558,3 +558,32 @@ label {
         background-color: var(--main-colour);
     }
 }
+
+/* small phone screens */
+@media screen and (max-width: 400px) {
+    .rtl {
+        height: 7vh;
+    }
+
+    .mgs-card-header {
+        padding-left: 5px;
+        margin-bottom: 0px;
+    }
+
+    p {
+        letter-spacing: 0px;
+    }
+
+    .mgs-card-share {
+        padding: 10px;
+    }
+
+    .mgs-card-desc {
+        text-align: left;
+        padding-left: 5px;
+    }
+
+    .btn-outline {
+        margin-left: 11px;
+    }
+}
