@@ -195,6 +195,76 @@ button:active {
     color: var(--secondtxt-colour);
 }
 
+#hamburger-input {
+    display: none;
+}
+
+#hamburger-menu {
+    position: absolute;
+    top: 12.5px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    display: none;
+    border: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: linear-gradient(
+        to bottom,
+        #222831, #222831 20%, 
+        white 20%, white 40%, 
+        #222831 40%, #222831 60%, 
+        white 60%, white 80%, 
+        #222831 80%, #222831 100%
+    );
+}
+
+#hamburger-menu #sidebar {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 200px;
+    height: 100%;
+    background-color: var(--main-colour);
+    transition: 0.3s;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+    z-index: 1;
+}
+
+#hamburger-menu h1 {
+    color: var(--text-colour);
+    font-size: 2.2rem;
+    padding-top: 15px;
+}
+
+#hamburger-menu ul {
+    padding-left: 0px;
+}
+
+#hamburger-menu li {
+    list-style-type: none;
+    line-height: 3rem;
+    padding-top: 15px;
+}
+
+#hamburger-menu a {
+    color: var(--text-colour);
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+#hamburger-menu a:hover {
+    text-decoration: underline;
+}
+
+#hamburger-input:checked + #hamburger-menu #sidebar {
+    visibility: visible;
+    left: 0;
+}
+
 @media only screen and (max-width: 950px) {
     h1 {
         font-size: 1.75rem;
@@ -209,4 +279,22 @@ button:active {
         width: 7rem;
     }
 
+}
+
+@media screen and (max-width: 600px) {
+    #hamburger-menu {
+        display: inline;
+    }
+
+    #menu {
+        visibility: hidden;
+    }
+
+    #logo {
+        visibility: hidden;
+    }
+
+    .rtl {
+        background-color: var(--main-colour);
+    }
 }
