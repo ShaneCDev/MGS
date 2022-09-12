@@ -1,108 +1,125 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# MGS - Movies, Games, Shows
+---
+This is a website for anyone who want's something to watch or play without scrolling through Netflix or Steam or the Playstation store for hours on end, instead they just come here and they have a plethora of options to choose from. The main purpose of the website is to save some arguments and debates in the household about what piece of media they want to indulge in, and there is a little description of every item on the website just incase people don't want to watch the trailer they just can just read and pick whatever tickles their fancy and go from there.
+## Responsive Image goes here
+The website can be viewed here. [MGS](https://shanecdev.github.io/MGS/index.html)
 
-Welcome Shane,
+# Index - Table of Contents
+---
+- User Experience (UX)
+- Features
+- Technologies Used
+- Testing
+- Deployment
+- Credits
+- Acknowledgments
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# User Experience (UX)
+---
+## User Stories
+---
+- As a Website Owner I want:
+1. The website to provide clear and concise information about Movies, Games, and TV Shows.
+2. The website allows users to contact the team behind the website with any feedback or suggestions they might have.
+3. The website provides a place for Movies, Games, and TV Show lovers to come and suggest pieces of media to be added to the site in the future.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+- As a Website User I want:
+1. To easily understand the main purpose of the site.
+2. To get information about different pieces of media.
+3. To get contact information of the hosts of the site.
+4. To be able to easily provide feedback to the hosts of the site.
 
-## Gitpod Reminders
+- As a Returning Website User I want:
+1. To provide the hosts of the site with new suggestions that should be added in the future.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+1. # Strategy
+---
+- The main purpose for creating this website is to provide information to fellow Movie, Games and TV Shows lovers about pieces of media that they may have missed.
+- Also with the site the hosts of the website can discover new Movies or what have you from users via the contact form.
 
-`python3 -m http.server`
+2. # Scope
+---
+- The multipage design is simple and the information is provided clear and concise.
+- The information can be accessed on all devices.
 
-A blue button should appear to click: _Make Public_,
+3. # Structure
+- Users will find themselves on the homepage where the design is inspired by the multicoloured "No Signal" screen on TVs, they will also see a navigation bar at the top.
+- The fixed nav bar has a logo on the left and nav items positioned to the right which are meaningfully named and are also evenly spaced.
+- The Home page is split into 3 even columns which are clickable and bring you to their respective pages.
+- The Movies, Games and Shows sections all provide information on 9 items that are layed out in a 3x3 grid.
+- The Contact section provides users with a form to get in touch with the hosts of the website.
+- The footer section provides the user with social media links to follow the hosts of the site.
 
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
+4. # Skeleton
 ---
 
-Happy coding!
+## Wireframes
+---
+WIP
+
+5. # Surface
+---
+- Colour
+Image to be added
+
+The colour palette is based on dark themes that are commonplace on websites nowadays. More to be added here.
+
+- Font
+---
+'Roboto Condensed' and 'Cabin' fonts are used for this website and were imported from Google fonts.
+
+# Features
+---
+
+## Existing Features
+--
+
+## Navigation Bar
+WIP
+
+### Home Page
+WIP
+
+### Movies
+WIP
+
+### Games
+WIP
+
+### Shows
+WIP
+
+### Contact Us
+WIP
+
+### Footer
+---
+
+# Technologies Used
+---
+
+- ## Languages
+---
+1. HTML5
+2. CSS3
+
+- ## Misc Software
+---
+- Google Fonts ( <- make a link)
+- Font Awesome ( <- make a link)
+- Gitpod (<- make a link)
+- Balsamiq (<- make a link)
+- Github (<- make a link)
+
+# Testing
+---
+- ## HTML Validator
+---
+WIP
+
+- ## CSS Validator
+WIP
+
+- ## Lighthouse
+WIP
+
