@@ -96,7 +96,10 @@ body > footer {
     background: var(--main-colour);
     width: 50vw;
     height: 100vh;
-    padding: 5rem 3.5rem;
+    padding-top: 5rem;
+    padding-right: 3.5rem;
+    padding-bottom: 5rem;
+    padding-left: 3.5rem;
 }
 
 .contact, label, button {
@@ -296,5 +299,25 @@ button:active {
 
     .rtl {
         background-color: var(--main-colour);
+    }
+
+    .left-col {
+        display: none;
+    }
+
+    .right-col {
+        height: 100%;
+        width: 100%;
+        padding-left: 120px;
+    }
+
+    input, textarea {
+        width: 57%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .right-col {
+        padding-left: 25px;
     }
 }
