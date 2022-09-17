@@ -284,7 +284,7 @@ label {
     background-image: url("../img/games/uncharted2.avif");
 }
 .mgs-card[data-game="Dark Souls"] {
-    background-image: url("../img/games/darksouls.avif");
+    background-image: url("../img/games/dsrimage.avif");
 }
 .mgs-card[data-game="God of War"] {
     background-image: url("../img/games/godofwar.avif");
@@ -445,7 +445,7 @@ label {
     margin-top: 46vh;
 }
 
-#hamburger-input {
+/*#hamburger-input {
     display: none;
 }
 
@@ -513,7 +513,7 @@ label {
 #hamburger-input:checked + #hamburger-menu #sidebar {
     visibility: visible;
     left: 0;
-}
+}*/
 
 @media screen and (max-width: 1680px) {
     .grid {
@@ -526,6 +526,7 @@ label {
         margin-left: auto;
         margin-right: auto;
     }
+
 }
 
 /* column responsiveness */
@@ -546,16 +547,26 @@ label {
         display: inline;
     }
 
-    #menu {
-        visibility: hidden;
-    }
-
-    #logo {
-        visibility: hidden;
-    }
-
     .rtl {
         background-color: var(--main-colour);
+    }
+
+    .movie-card__overlay {
+        background: linear-gradient(to bottom, rgba(42, 159, 255, 0.2) 0%, #212120 60%, #212120 100%);
+    }
+
+    .mgs-card {
+        background-position: 50% 0%;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .movie-card__content {
+        margin-top: 4.2em;
+        width: 100%;
+        float: inherit;
+        max-width: 100%;
+        padding: 0 1em 1em;
     }
 }
 
@@ -563,6 +574,29 @@ label {
 @media screen and (max-width: 400px) {
     .rtl {
         height: 7vh;
+    }
+
+    ul {
+        padding-top: 10px;
+        height: 7vh;
+    }
+
+    #menu, #logo {
+        line-height: 35px;
+    }
+
+    #logo {
+        font-size: 200%;
+        margin-left: 0;
+        padding-top: 12px;
+    }
+
+    #menu li {
+        margin-right: 20px;
+    }
+
+    #menu {
+        letter-spacing: 0;
     }
 
     .mgs-card-header {
@@ -587,3 +621,17 @@ label {
         margin-left: 11px;
     }
 }
+
+@media screen and (max-width: 800px) {
+    .mgs-card {
+      width: 95%;
+      max-width: 95%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .movie-card__content {
+      width: 50%;
+    }
+}
+

@@ -10,8 +10,8 @@ The website can be viewed here. [MGS](https://shanecdev.github.io/MGS/index.html
 - [Features](https://github.com/ShaneCDev/MGS/blob/main/README.md#features)
 - [Technologies Used](https://github.com/ShaneCDev/MGS/blob/main/README.md#technologies-used)
 - [Testing](https://github.com/ShaneCDev/MGS/blob/main/README.md#testing)
-- Deployment
-- Credits
+- [Deployment](https://github.com/ShaneCDev/MGS#deployment)
+- [Credits](https://github.com/ShaneCDev/MGS#credits)
 - Acknowledgments
 
 # User Experience (UX)
@@ -152,5 +152,19 @@ The website was deployed using GitHub Pages:
 The website can be viewed here. [MGS](https://shanecdev.github.io/MGS/index.html)
 
 # Credits
----
-WIP
+- ## Images
+- All images were taken from [Google Images](https://www.google.ie/imghp?hl=en-GB&tab=ri&ogbl).
+- [Am I Responsive](https://ui.dev/amiresponsive) was used to generate the website responsive image used here in the README.md.
+- Trailers were taken from [YouTube](https://www.youtube.com/).
+[Ezgif](https://ezgif.com/) for converting the images from jpg to avif.
+
+- ## Coding
+- [CSS Cards](https://codepen.io/ryanparag/pen/oWrLPr) were heavily inspired by this post, and I tweaked them a little bit to my liking.
+- [The hamburger menu](https://alvarotrigo.com/blog/hamburger-menu-css-responsive/) this really helped me when it came to tweaking the navigation bar for smaller screens.
+- [W3C](https://www.w3schools.com/html/) helped a lot in various different cases and testing of the various concepts.
+
+# Acknowledgments
+I would like to thank:
+- My mentor Rahul Lakhanpal for all his feedback, guidance and support whilst working on this project. He really saved my life when it came to making this site responsive.
+- Slack Community.
+
