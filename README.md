@@ -1,7 +1,7 @@
 # MGS - Movies, Games, Shows
 
 This is a website for anyone who want's something to watch or play without scrolling through Netflix or Steam or the Playstation store for hours on end, instead they just come here and they have a plethora of options to choose from. The main purpose of the website is to save some arguments and debates in the household about what piece of media they want to indulge in, and there is a little description of every item on the website just incase people don't want to watch the trailer they just can just read and pick whatever tickles their fancy and go from there.
-## Responsive Image goes here
+![AmIResponsive](/assets/img/readmeimgs/screenshots/amiresponsive.png)
 The website can be viewed here. [MGS](https://shanecdev.github.io/MGS/index.html)
 
 # Index - Table of Contents
@@ -148,7 +148,7 @@ The colour palette is based on dark themes that are commonplace on websites nowa
 The website was tested on the following browsers:
 - Google Chrome: Version 105.0.5195.127 (Official Build) (64-bit)
 - Mozilla Firefox: Version 104.0.2 (64-bit)
-- Microsoft Edge: Version 105.0.1343.42 (Official build) (64-bit)
+- OperaGX: Version 90.0.4480.100
 
 - # Manual Testing
 The following was manually tested and resulted in a pass:
