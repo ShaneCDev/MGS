@@ -1,18 +1,18 @@
 # MGS - Movies, Games, Shows
----
+
 This is a website for anyone who want's something to watch or play without scrolling through Netflix or Steam or the Playstation store for hours on end, instead they just come here and they have a plethora of options to choose from. The main purpose of the website is to save some arguments and debates in the household about what piece of media they want to indulge in, and there is a little description of every item on the website just incase people don't want to watch the trailer they just can just read and pick whatever tickles their fancy and go from there.
 ## Responsive Image goes here
 The website can be viewed here. [MGS](https://shanecdev.github.io/MGS/index.html)
 
 # Index - Table of Contents
----
+
 - [User Experience (UX)](https://github.com/ShaneCDev/MGS/blob/main/README.md#index---table-of-contents)
 - [Features](https://github.com/ShaneCDev/MGS/blob/main/README.md#features)
 - [Technologies Used](https://github.com/ShaneCDev/MGS/blob/main/README.md#technologies-used)
 - [Testing](https://github.com/ShaneCDev/MGS/blob/main/README.md#testing)
 - [Deployment](https://github.com/ShaneCDev/MGS#deployment)
 - [Credits](https://github.com/ShaneCDev/MGS#credits)
-- Acknowledgments
+- [Acknowledgments](https://github.com/ShaneCDev/MGS#acknowledgments)
 
 # User Experience (UX)
 
@@ -133,13 +133,43 @@ The colour palette is based on dark themes that are commonplace on websites nowa
 
 # Testing
 - ## HTML Validator
-WIP
+    At various stages HTML Validation was done.
+    ![HTML Validation](/assets/img/readmeimgs/screenshots/html%20validation.png)
 
 - ## CSS Validator
-WIP
+    At various stages CSS Validation was done.
+    ![CSS Validation](/assets/img/readmeimgs/screenshots/CSS%20validation.png)
 
 - ## Lighthouse
-WIP
+    At various stages Lighthouse testing was done.
+    ![Lighthouse](/assets/img/readmeimgs/screenshots/lighthouse.png)
+
+- ## Browser Compatability
+The website was tested on the following browsers:
+- Google Chrome: Version 105.0.5195.127 (Official Build) (64-bit)
+- Mozilla Firefox: Version 104.0.2 (64-bit)
+- Microsoft Edge: Version 105.0.1343.42 (Official build) (64-bit)
+
+- # Manual Testing
+The following was manually tested and resulted in a pass:
+- ## Navigation Bar
+    - The "MGS" logo takes you to the home page when clicked.
+    - The navigation items take you to their respective pages when clicked, and the underline shows beneath to indicate what page you are currently viewing.
+    - When you hover over the navigation items, an underline appears for the respective link.
+    - The navbar is responsive so on smaller screens it turns into a hamburger menu.
+- ## Home Page
+    - On smaller screens the layout changes from a three column layout going left to right, to a three column layout where the columns are on top of eachother.
+- ## Movies, Games, Shows
+    - The buttons have been manually tested to make sure that they take you to the respective trailers.
+- ## Contact Form
+    - The form requires all of the fields to be filled in before it can be submitted.
+    - On smaller screens the layout of the page completely changes.
+- ## Footer
+    - All of the social media links open in a new tab.
+---
+- # Future Implementation
+    - I would use javascript as I believe that I could add a lot more functionality to the site and I would just overall have more freedom to add features.
+
 
 # Deployment
 The website was deployed using GitHub Pages:
@@ -156,11 +186,11 @@ The website can be viewed here. [MGS](https://shanecdev.github.io/MGS/index.html
 - All images were taken from [Google Images](https://www.google.ie/imghp?hl=en-GB&tab=ri&ogbl).
 - [Am I Responsive](https://ui.dev/amiresponsive) was used to generate the website responsive image used here in the README.md.
 - Trailers were taken from [YouTube](https://www.youtube.com/).
-[Ezgif](https://ezgif.com/) for converting the images from jpg to avif.
+- [Ezgif](https://ezgif.com/) for converting the images from jpg to avif.
 
 - ## Coding
 - [CSS Cards](https://codepen.io/ryanparag/pen/oWrLPr) were heavily inspired by this post, and I tweaked them a little bit to my liking.
-- [The hamburger menu](https://alvarotrigo.com/blog/hamburger-menu-css-responsive/) this really helped me when it came to tweaking the navigation bar for smaller screens.
+- [The hamburger menu](https://alvarotrigo.com/blog/hamburger-menu-css/) I used this tutorial for my hamburger menu as I was really struggling trying to do it without the use of JS.
 - [W3C](https://www.w3schools.com/html/) helped a lot in various different cases and testing of the various concepts.
 
 # Acknowledgments

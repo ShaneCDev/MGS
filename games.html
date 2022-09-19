@@ -9,7 +9,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
 
-    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
@@ -18,27 +17,23 @@
 
 <body class="holy-grail">
     <header>
-        <a href="index.html">
-            <h1 id="logo">MGS</h1>
-        </a>
-        <div class="rtl">
-            <nav id="menu">
-                <ul>
-                    <li>
-                        <a href="movies.html">Movies</a>
-                    </li>
-                    <li>
-                        <a href="games.html" class="navactive">Games</a>
-                    </li>
-                    <li>
-                        <a href="shows.html">Shows</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <section class="top-nav">
+            <div>
+                <a href="index.html">
+                    <h1 id="logo">MGS</h1>
+                </a>
+            </div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-button-container">
+                <span class="menu-button"></span>
+            </label>
+            <ul class="menu">
+                <li><a href="movies.html" class="newmenu">Movies</a></li>
+                <li class="navactive"><a href="games.html" class="newmenu">Games</a></li>
+                <li><a href="shows.html" class="newmenu">Shows</a></li>
+                <li><a href="contact.html" class="newmenu">Contact</a></li>
+            </ul>
+        </section>
     </header>
 
     <section class="holy-grail-content">
@@ -64,10 +59,8 @@
                                 Yharnam,
                                 now cursed with a strange illness spreading throughout the city.
                             </p>
-                            <a href="https://youtu.be/2Crk_GpxGQE" target="_blank">
-                                <button class="btn btn-outline mgs-card-button" type="button"><i
-                                        class="fa-solid fa-play"> Watch
-                                        Trailer</i></button>
+                            <a href="https://youtu.be/2Crk_GpxGQE" class="btn btn-outline mgs-card-button" target="_blank">
+                                <i class="fa-solid fa-play"> Watch Trailer</i>
                             </a>
                         </div>
                     </div>
@@ -91,10 +84,8 @@
                             <p class="mgs-card-desc">Winner of over 80 awards, Control is a visually stunning
                                 third-person action-adventure that will keep you on the edge of your seat.
                             </p>
-                            <a href="https://youtu.be/PT5yMfC9LQM" target="_blank">
-                                <button class="btn btn-outline mgs-card-button" type="button"><i
-                                        class="fa-solid fa-play"> Watch
-                                        Trailer</i></button>
+                            <a href="https://youtu.be/PT5yMfC9LQM" class="btn btn-outline mgs-card-button" target="_blank">
+                                <i class="fa-solid fa-play"> Watch Trailer</i>
                             </a>
                         </div>
                     </div>
@@ -118,10 +109,8 @@
                             <p class="mgs-card-desc">Play as Mad Max, a reluctant hero and survivor
                                 who wants nothing more than to leave the madness behind and find solace.
                             </p>
-                            <a href="https://youtu.be/9hDPmTvqob0" target="_blank">
-                                <button class="btn btn-outline mgs-card-button" type="button"><i
-                                        class="fa-solid fa-play"> Watch
-                                        Trailer</i></button>
+                            <a href="https://youtu.be/9hDPmTvqob0" class="btn btn-outline mgs-card-button" target="_blank">
+                                <i class="fa-solid fa-play"> Watch Trailer</i>
                             </a>
                         </div>
                     </div>
@@ -145,10 +134,8 @@
                             <p class="mgs-card-desc">Carve your own clever path to vengeance,
                                 take revenge, restore your honour and kill ingeniously.
                             </p>
-                            <a href="https://youtu.be/rXMX4YJ7Lks" target="_blank">
-                                <button class="btn btn-outline mgs-card-button" type="button"><i
-                                        class="fa-solid fa-play"> Watch
-                                        Trailer</i></button>
+                            <a href="https://youtu.be/rXMX4YJ7Lks" class="btn btn-outline mgs-card-button" target="_blank">
+                                <i class="fa-solid fa-play"> Watch Trailer</i>
                             </a>
                         </div>
                     </div>
@@ -172,10 +159,8 @@
                             <p class="mgs-card-desc">After being tracked down by Harry Flynn,
                                 Nathan Drake goes on a quest for Marco Polo's lost fleet.
                             </p>
-                            <a href="https://youtu.be/tlkkceDkT88" target="_blank">
-                                <button class="btn btn-outline mgs-card-button" type="button"><i
-                                        class="fa-solid fa-play"> Watch
-                                        Trailer</i></button>
+                            <a href="https://youtu.be/tlkkceDkT88" class="btn btn-outline mgs-card-button" target="_blank">
+                                <i class="fa-solid fa-play"> Watch Trailer</i>
                             </a>
                         </div>
                     </div>
@@ -199,10 +184,8 @@
                             <p class="mgs-card-desc">Then, there was fire. Re-experience the critically acclaimed,
                                 genre-defining game that started it all.
                             </p>
-                            <a href="https://youtu.be/Woe0PYZPxRw" target="_blank">
-                                <button class="btn btn-outline mgs-card-button" type="button"><i
-                                        class="fa-solid fa-play"> Watch
-                                        Trailer</i></button>
+                            <a href="https://youtu.be/Woe0PYZPxRw" class="btn btn-outline mgs-card-button" target="_blank">
+                                <i class="fa-solid fa-play"> Watch Trailer</i>
                             </a>
                         </div>
                     </div>
@@ -226,10 +209,8 @@
                             <p class="mgs-card-desc">His vengeance against the Gods of Olympus years behind him,
                                 Kratos now lives as a man in the realm of Norse Gods and monsters.
                             </p>
-                            <a href="https://youtu.be/K0u_kAWLJOA" target="_blank">
-                                <button class="btn btn-outline mgs-card-button" type="button"><i
-                                        class="fa-solid fa-play"> Watch
-                                        Trailer</i></button>
+                            <a href="https://youtu.be/K0u_kAWLJOA" class="btn btn-outline mgs-card-button" target="_blank">
+                                <i class="fa-solid fa-play"> Watch Trailer</i>
                             </a>
                         </div>
                     </div>
@@ -253,10 +234,8 @@
                             <p class="mgs-card-desc">All hell breaks loose
                                 in Arkham City and the Dark Knight is the only one who can stop it.
                             </p>
-                            <a href="https://youtu.be/-V1ZF5cNYCs" target="_blank">
-                                <button class="btn btn-outline mgs-card-button" type="button"><i
-                                        class="fa-solid fa-play"> Watch
-                                        Trailer</i></button>
+                            <a href="https://youtu.be/-V1ZF5cNYCs" class="btn btn-outline mgs-card-button" target="_blank">
+                                <i class="fa-solid fa-play"> Watch Trailer</i>
                             </a>
                         </div>
                     </div>
@@ -281,10 +260,8 @@
                                 and,
                                 arguably the best game ever made.
                             </p>
-                            <a href="https://youtu.be/ID1dWN3n7q4" target="_blank">
-                                <button class="btn btn-outline mgs-card-button" type="button"><i
-                                        class="fa-solid fa-play"> Watch
-                                        Trailer</i></button>
+                            <a href="https://youtu.be/ID1dWN3n7q4" class="btn btn-outline mgs-card-button" target="_blank">
+                                <i class="fa-solid fa-play"> Watch Trailer</i>
                             </a>
                         </div>
                     </div>

@@ -9,7 +9,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
 
-    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
@@ -18,46 +17,30 @@
 
 <body>
     <header>
-        <a href="index.html">
-            <h1 id="logo">MGS</h1>
-        </a>
-        <div class="rtl">
-            <input type="checkbox" id="hamburger-input" class="burger-shower">
-            <label for="hamburger-input" id="hamburger-menu">
-                <nav id="sidebar">
-                    <h1>MGS</h1>
-                    <ul>
-                        <li><a href="movies.html">Movies</a></li>
-                        <li><a href="games.html">Games</a></li>
-                        <li><a href="shows.html">Shows</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
+        <section class="top-nav">
+            <div>
+                <a href="index.html">
+                    <h1 id="logo">MGS</h1>
+                </a>
+            </div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-button-container">
+                <span class="menu-button"></span>
             </label>
-            <nav id="menu">
-                <ul>
-                    <li>
-                        <a href="movies.html">Movies</a>
-                    </li>
-                    <li>
-                        <a href="games.html">Games</a>
-                    </li>
-                    <li>
-                        <a href="shows.html">Shows</a>
-                    </li>
-                    <li>
-                        <a href="contact.html" class="navactive">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+            <ul class="menu">
+                <li><a href="movies.html" class="newmenu">Movies</a></li>
+                <li><a href="games.html" class="newmenu">Games</a></li>
+                <li><a href="shows.html" class="newmenu">Shows</a></li>
+                <li class="navactive"><a href="contact.html" class="newmenu">Contact</a></li>
+            </ul>
+        </section>
     </header>
 
 
     <div class="contact-container">
         <div class="left-col"></div>
         <div class="right-col">
-            <h1 class="contact">Contact Us</h1>
+            <h2 class="contact">Contact Us</h2>
 
             <form action="confirmation.html" id="contact-form">
                 <label for="name">Full Name</label>
