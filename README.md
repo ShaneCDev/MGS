@@ -189,7 +189,7 @@ The website can be viewed here. [MGS](https://shanecdev.github.io/MGS/index.html
 - [Ezgif](https://ezgif.com/) for converting the images from jpg to avif.
 
 - ## Coding
-- [CSS Cards](https://codepen.io/ryanparag/pen/oWrLPr) were heavily inspired by this post, and I tweaked them a little bit to my liking.
+- For the [CSS Cards](https://codepen.io/ryanparag/pen/oWrLPr) I used a tutorial which can be seen by clicking the link, which I also tweaked a little bit to my liking, mainly the media queries.
 - [The hamburger menu](https://alvarotrigo.com/blog/hamburger-menu-css/) I used this tutorial for my hamburger menu as I was really struggling trying to do it without the use of JS.
 - [W3C](https://www.w3schools.com/html/) helped a lot in various different cases and testing of the various concepts.
 
